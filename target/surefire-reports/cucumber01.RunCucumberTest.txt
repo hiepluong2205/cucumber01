@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: cucumber01.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.436 s <<< FAILURE! - in cucumber01.RunCucumberTest
+API Tests.GET request to /users  Time elapsed: 0.174 s  <<< ERROR!
+java.lang.NullPointerException
+
+API Tests.GET request to single user  Time elapsed: 0.067 s  <<< ERROR!
+java.lang.NullPointerException
+
+API Tests.GET request to nonexisting user  Time elapsed: 0.012 s  <<< ERROR!
+java.lang.NullPointerException
+
